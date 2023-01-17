@@ -11,3 +11,22 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.header-notif-panel h2 {
+  font-weight: 800;
+}
+
+.header-notif-panel span {
+  background-color: #1c202b;
+  border-radius: 5px;
+  color: white;
+  padding: 0px 10px;
+}
+
+.minimal-btn {
+  opacity: 50%;
+}
+
+.notif {
+  background: hsl(210, 60%, 98%);
+}
