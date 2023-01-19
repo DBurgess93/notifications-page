@@ -3,20 +3,25 @@ body {
   background: hsl(210, 60%, 98%);
 }
 
-.container-notif-panel {
+.container-notification-panel {
   margin: 0 auto;
   max-width: 60%;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 500;
-}
-
-.header-notif-panel {
+  background: pink;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
 
-.header-notif-panel h2 {
+.header-notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: ;
+}
+
+.header-notification-panel h2 {
   font-weight: 800;
 }
 
@@ -31,16 +36,32 @@ body {
   opacity: 50%;
 }
 
-.notif {
+.notification {
   background: hsl(211, 68%, 94%);
   width: 80%;
-  border-radius: 3px;
-}
-
-.notif img {
-  width: 40px;
-}
-
-.notif-heading {
+  border-radius: 8px;
+  padding: 15px;
   display: flex;
+  align-items: center;
+  margin: 6px;
+}
+
+.notification img {
+  width: 40px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.notification p {
+  margin: 3px;
+}
+
+.notification span {
+  font-weight: 800;
+}
+
+
+
+.message {
+  border: 1px solid black;
 }
