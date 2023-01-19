@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
 }
 
 .header-notification-panel h2 {
@@ -39,10 +40,19 @@ body {
   background: hsl(211, 68%, 94%);
   width: 80%;
   border-radius: 8px;
-  padding: 15px;
+  padding: 12px;
   display: flex;
   align-items: center;
   margin: 6px;
+}
+
+.notification:hover {
+  background: hsl(212, 68%, 90%);
+  cursor: pointer;
+}
+
+.notification:active {
+  background: gray;
 }
 
 .notification img {
@@ -63,4 +73,9 @@ body {
 
 .message {
   border: 1px solid black;
+}
+
+.minimal-btn:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
