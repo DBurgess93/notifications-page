@@ -6,19 +6,18 @@ body {
 .container-notification-panel {
   margin: 0 auto;
   max-width: 60%;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 500;
-  background: pink;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  background: pink;
 }
 
 .header-notification {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: ;
 }
 
 .header-notification-panel h2 {
