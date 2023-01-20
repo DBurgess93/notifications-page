@@ -14,6 +14,31 @@ body {
   background: pink;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  /* background: hsl(211, 68%, 94%);
+  width: 80%;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  margin: 6px; */
+  }
+
+  a:hover {
+    background: hsl(212, 68%, 90%);
+    cursor: pointer;
+  }
+
+  a:active {
+    background: gray;
+  }
+
+  a:visited {
+    background: white;
+  }
+
 .header-notification {
   display: flex;
   justify-content: space-between;
@@ -44,15 +69,6 @@ body {
   display: flex;
   align-items: center;
   margin: 6px;
-}
-
-.notification:hover {
-  background: hsl(212, 68%, 90%);
-  cursor: pointer;
-}
-
-.notification:active {
-  background: gray;
 }
 
 .notification img {
