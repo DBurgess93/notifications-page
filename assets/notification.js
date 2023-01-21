@@ -7,3 +7,10 @@ function markAllAsRead() {
     elements.item(i).style.background = "white"
   }
 }
+
+$(document).ready(function() {
+  let notif = document.getElementsByClassName
+  $('notif').click(function() {
+      notif.style.background = "green";
+  });
+});
