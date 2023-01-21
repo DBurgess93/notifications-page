@@ -31,13 +31,6 @@ a {
     cursor: pointer;
   }
 
-  a:active {
-    background: gray;
-  }
-
-  a:visited {
-    background: white;
-  }
 
 .header-notification {
   display: flex;
