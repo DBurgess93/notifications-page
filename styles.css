@@ -19,7 +19,7 @@ ul {
 }
 
 .notification {
-  background: hsl(210, 60%, 98%);
+  background: rgb(246, 215, 220);
   width: 80%;
   border-radius: 8px;
   padding: 12px;
@@ -29,7 +29,7 @@ ul {
 }
 
 .read {
-  background: pink;
+  background: white;
 }
 
 .notification-read {
@@ -97,7 +97,7 @@ a {
 
 
 .message {
-  border: 1px solid rgba(0, 0, 0, 0.228) ;
+  border: 1px solid rgba(0, 0, 0, 0.228);
   padding: 15px;
   border-radius: 4px;
 }

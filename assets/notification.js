@@ -22,7 +22,16 @@ function markAllAsRead() {
 //     notif.style.background = "white";
 //   });
 
+// $(".notification").onclick(function () {
+//   $(this).closest("a").addClass("read");
+// });
 
-$(".notification li a").onclick(function () {
-  $(this).closest("li").addClass("read");
+// document.querySelector("ul").addEventListener("click", function(event) {
+//   if(event.currentTarget.matches(".notification")) {
+//     event.target.classList.add("read");
+//   }
+// });
+
+$("ul").on("click", ".notification", function() {
+  $(this).addClass("read");
 });
