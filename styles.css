@@ -1,6 +1,7 @@
 
 body {
-  background: hsl(210, 60%, 98%);
+  background: #1E212B;
+  color: #08090C;
 }
 
 ul {
@@ -17,23 +18,24 @@ i {
 }
 
 span.bullet {
-  font-size: 30px;
-  color: red;
+  font-size: 10px;
 }
 
 .notification-panel {
   margin: 0 auto;
+  margin-top: 50px;
   max-width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 500;
   background: white;
 }
 
 .notification {
-  background: rgb(223, 243, 224);
+  background: #CFEAC3;
   width: 80%;
   border-radius: 8px;
   padding: 12px;
@@ -44,6 +46,7 @@ span.bullet {
 
 .read {
   background: white;
+
 }
 
 
