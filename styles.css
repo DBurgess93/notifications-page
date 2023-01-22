@@ -3,6 +3,10 @@ body {
   background: hsl(210, 60%, 98%);
 }
 
+ul {
+  list-style: none;
+}
+
 .container-notification-panel {
   margin: 0 auto;
   max-width: 60%;
@@ -55,7 +59,7 @@ a {
 }
 
 .notification {
-  background: hsl(211, 68%, 94%);
+  background: hsl(210, 60%, 98%);
   width: 80%;
   border-radius: 8px;
   padding: 12px;

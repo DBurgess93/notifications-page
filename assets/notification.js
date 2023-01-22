@@ -15,9 +15,12 @@ function markAllAsRead() {
 //   notif.style.background = "white";
 // }
 
-const notif = document.getElementById("1");
-const btn = document.getElementById("1")
+// const notif = document.getElementById("1");
+// const btn = document.getElementById("1")
 
-  btn.addEventListener("click", function () {
-    notif.style.background = "white";
-  });
+//   btn.addEventListener("click", function () {
+//     notif.style.background = "white";
+//   });
+
+
+$(".notification")
