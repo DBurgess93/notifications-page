@@ -7,7 +7,7 @@ ul {
   list-style: none;
 }
 
-.container-notification-panel {
+.notification-panel {
   margin: 0 auto;
   max-width: 60%;
   display: flex;
@@ -16,6 +16,38 @@ ul {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 500;
   background: white;
+}
+
+.notification {
+  background: hsl(210, 60%, 98%);
+  width: 80%;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  margin: 6px;
+}
+
+.read {
+  background: pink;
+}
+
+.notification-read {
+  background: lightgreen;
+}
+
+.notification img {
+  width: 40px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.notification p {
+  margin: 3px;
+}
+
+.notification span {
+  font-weight: 800;
 }
 
 a {
@@ -58,33 +90,6 @@ a {
   opacity: 50%;
 }
 
-.notification {
-  background: hsl(210, 60%, 98%);
-  width: 80%;
-  border-radius: 8px;
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  margin: 6px;
-}
-
-.notification-read {
-  background: lightgreen;
-}
-
-.notification img {
-  width: 40px;
-  height: 100%;
-  margin-right: 10px;
-}
-
-.notification p {
-  margin: 3px;
-}
-
-.notification span {
-  font-weight: 800;
-}
 
 .message {
   margin-top: 8px;

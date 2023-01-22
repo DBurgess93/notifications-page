@@ -23,4 +23,6 @@ function markAllAsRead() {
 //   });
 
 
-$(".notification")
+$(".notification li a").onclick(function () {
+  $(this).closest("li").addClass("read");
+});
