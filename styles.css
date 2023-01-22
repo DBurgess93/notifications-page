@@ -7,6 +7,15 @@ ul {
   list-style: none;
 }
 
+strong {
+  color: hsl(220, 2%, 36%);
+}
+
+i {
+  color: #080887;
+  font-weight: 800;
+}
+
 .notification-panel {
   margin: 0 auto;
   max-width: 60%;
@@ -19,7 +28,7 @@ ul {
 }
 
 .notification {
-  background: rgb(246, 215, 220);
+  background: rgb(223, 243, 224);
   width: 80%;
   border-radius: 8px;
   padding: 12px;
