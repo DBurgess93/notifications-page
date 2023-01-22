@@ -33,5 +33,16 @@ function markAllAsRead() {
 // });
 
 $("ul").on("click", ".notification", function() {
-  $(this).addClass("read");
+  $(this).addClass("read").find(".bullet:eq(1)").hide();
+  console.log("notification clicked");
+});
+
+// this code removes the notification completly
+// $("ul").on("click", ".notification", function() {
+//   $(this).remove();
+// });
+
+$("ul").on("click", ".bullet:eq(1)", function() {
+  $(this).hide();
+  console.log("notification clicked");
 });

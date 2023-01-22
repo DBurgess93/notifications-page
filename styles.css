@@ -16,6 +16,11 @@ i {
   font-weight: 800;
 }
 
+span.bullet {
+  font-size: 30px;
+  color: red;
+}
+
 .notification-panel {
   margin: 0 auto;
   max-width: 60%;
@@ -39,6 +44,11 @@ i {
 
 .read {
   background: white;
+}
+
+
+.display-none {
+  display: none;
 }
 
 .notification-read {
