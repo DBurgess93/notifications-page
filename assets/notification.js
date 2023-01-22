@@ -9,3 +9,15 @@ function markAllAsRead() {
 }
 
 // addEventListener('click', (event) => { });
+
+// function changeColor() {
+//   const notif = document.querySelector(".notification");
+//   notif.style.background = "white";
+// }
+
+const notif = document.getElementById("1");
+const btn = document.getElementById("1")
+
+  btn.addEventListener("click", function () {
+    notif.style.background = "white";
+  });
