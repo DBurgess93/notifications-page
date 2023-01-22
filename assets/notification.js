@@ -33,7 +33,7 @@ function markAllAsRead() {
 // });
 
 $("ul").on("click", ".notification", function() {
-  $(this).addClass("read").find(".bullet:eq(1)").hide();
+  $(this).addClass("read");
   console.log("notification clicked");
 });
 
@@ -42,7 +42,7 @@ $("ul").on("click", ".notification", function() {
 //   $(this).remove();
 // });
 
-$("ul").on("click", ".bullet:eq(1)", function() {
-  $(this).hide();
+$("ul").on("click", ".notification", function() {
+  $(this).find(".bullet").addClass("display-none");
   console.log("notification clicked");
 });
